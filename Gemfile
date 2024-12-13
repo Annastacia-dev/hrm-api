@@ -38,7 +38,10 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+  gem 'rspec-rails'
+  gem 'rswag-specs'
 end
+
 
 
 gem "devise"
@@ -51,4 +54,6 @@ gem "rubocop"
 gem "annotate", group: [:development]
 gem "byebug", group: [:development, :test]
 gem "bullet", group: [:development]
-gem "rspec-rails", group: [:development, :test]
+gem 'rswag-api'
+gem 'rswag-ui'
+
