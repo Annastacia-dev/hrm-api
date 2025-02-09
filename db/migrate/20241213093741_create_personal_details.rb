@@ -3,7 +3,6 @@
 class CreatePersonalDetails < ActiveRecord::Migration[7.2]
   def change
     create_table :personal_details, id: :uuid do |t|
-
       t.references :employee, foreign_key: true, type: :uuid, null: false
       t.string :first_name, null: false
       t.string :middle_name
