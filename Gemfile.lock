@@ -124,10 +124,14 @@ GEM
       logger
       zeitwerk (~> 2.6)
     erubi (1.13.0)
+    fiber-storage (1.0.0)
     friendly_id (5.5.1)
       activerecord (>= 4.0.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    graphql (2.4.8)
+      base64
+      fiber-storage
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     io-console (0.8.0)
@@ -341,6 +345,7 @@ DEPENDENCIES
   devise-jwt
   dotenv-rails
   friendly_id
+  graphql (~> 2.4)
   paper_trail
   pg (~> 1.1)
   puma (>= 5.0)
